@@ -1,0 +1,8 @@
+# Safe template only. Do not replace placeholders with real secrets in Git.
+name: hermes-local-gateway
+base_url: http://127.0.0.1:8317/v1
+api_mode: openai-compatible
+model: <MODEL_ID>
+models:
+  - <MODEL_ID>
+key_env: CLIPROXY_API_KEY
