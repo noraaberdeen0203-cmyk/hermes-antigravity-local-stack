@@ -1,0 +1,11 @@
+# Minimal example written from scratch. No credential paths or secret values.
+server:
+  host: 127.0.0.1
+  port: 8317
+auth:
+  key_env: CLIPROXY_API_KEY
+antigravity:
+  oauth_context_env: ANTIGRAVITY_OAUTH_CONTEXT
+routes:
+  - model: <MODEL_ID>
+    upstream: google-antigravity
